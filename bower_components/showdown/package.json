@@ -1,0 +1,24 @@
+{
+  "name": "component-showdown",
+  "description": "Showdown component for frontend package managers.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/k33g/component-showdown",
+  "scripts": {
+    "build": "npm install && grunt"
+  },
+  "author": {
+    "name": "K33G_ORG",
+    "email": "ph.charriere@gmail.com",
+    "url": "https://github.com/k33g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k33g/component-showdown.git"
+  },
+  "devDependencies": {
+    "traceur": "0.0.52",
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-cli": "^0.1.13"
+  }
+}
