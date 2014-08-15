@@ -1,0 +1,20 @@
+<link rel="import" href="../../vendors/polymer/polymer.html">
+
+<polymer-element name="app-header" attributes="title">
+  <template>
+    <link rel="stylesheet" href="../../../styles/h5bp.css">
+    <link rel="stylesheet" href="../../../styles/components.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+
+    <header id="header" class="app-bar promote-layer">
+      <div class="app-bar-container">
+        <button id="menuButton" class="menu"><img src="../../../images/hamburger.svg" alt="Menu"></button>
+        <h1 class="logo">{{title}}</h1>
+        <section class="app-bar-actions">
+          <!-- Put App Bar Buttons Here -->
+        </section>
+      </div>
+    </header>
+  </template>
+  <script src="app-header.js"></script>
+</polymer-element>

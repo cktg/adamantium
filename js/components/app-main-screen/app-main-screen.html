@@ -1,0 +1,20 @@
+<link rel="import" href="../../vendors/polymer/polymer.html">
+
+<polymer-element name="app-main-screen" attributes="title, srcContent">
+  <template>
+    <link rel="stylesheet" href="../../../styles/h5bp.css">
+    <link rel="stylesheet" href="../../../styles/components.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+
+    <link rel="stylesheet" href="../../vendors/highlightjs/styles/github.css">
+    <link rel="stylesheet" href="../../../styles/precode.css">
+
+    <main id="mainContent">
+      <h2>{{content.title}}</h2>
+      <p>{{content.text}}</p>
+      <span id="markdownContent"></span>
+    </main>
+
+  </template>
+  <script src="app-main-screen.js"></script>
+</polymer-element>

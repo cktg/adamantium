@@ -1,0 +1,10 @@
+{
+  "name": "copper",
+  "version": "0.0.0",
+  "dependencies": {
+    "speculoos": "k33g/speculoos#master",
+    "polymer": "Polymer/polymer#~0.3.5",
+    "showdown": "k33g/component-showdown#master",
+    "highlightjs": "components/highlightjs#master"
+  }
+}
